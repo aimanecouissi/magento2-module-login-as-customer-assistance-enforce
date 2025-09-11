@@ -1,0 +1,22 @@
+{
+    "name": "aimanecouissi/module-login-as-customer-assistance-enforce",
+    "version": "1.0.0",
+    "description": "Enforce Login as Customer assistance and remove the opt-out checkbox",
+    "type": "magento2-module",
+    "require": {
+        "php": "~8.3.0||~8.4.0",
+        "magento/framework": "103.0.*",
+        "magento/module-login-as-customer-assistance": "100.4.*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\LoginAsCustomerAssistanceEnforce\\": ""
+        }
+    }
+}

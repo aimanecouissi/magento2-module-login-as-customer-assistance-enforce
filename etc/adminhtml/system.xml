@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="login_as_customer">
+            <group id="general">
+                <field id="enforce_shopping_assistance" translate="label comment" type="select" sortOrder="70"
+                       showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Enforce Shopping Assistance</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>If set to "Yes", shopping assistance is enforced during account creation without customer choice.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
