@@ -18,7 +18,7 @@ bin/magento cache:flush
 When enforcement is enabled, customers cannot opt out of shopping assistance on the storefront.  
 To verify:
 - Check that the **Shopping Assistance** opt-out checkbox is not shown during account creation on storefront.
-- Go to **Customers → All Customers → Edit** → *Account Information*; the **Shopping Assistance** field is enabled and cannot be turned off.
+- Go to **Customers → All Customers → Edit → Account Information**; the **Shopping Assistance** field is enabled and cannot be turned off.
 
 ## Uninstall
 ```bash
