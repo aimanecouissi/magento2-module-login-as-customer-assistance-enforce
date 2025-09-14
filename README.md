@@ -1,5 +1,7 @@
 # AimaneCouissi_LoginAsCustomerAssistanceEnforce
 
+[![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-login-as-customer-assistance-enforce/v)](https://packagist.org/packages/aimanecouissi/module-login-as-customer-assistance-enforce) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-login-as-customer-assistance-enforce/downloads)](https://packagist.org/packages/aimanecouissi/module-login-as-customer-assistance-enforce) [![Latest Unstable Version](http://poser.pugx.org/aimanecouissi/module-login-as-customer-assistance-enforce/v/unstable)](https://packagist.org/packages/aimanecouissi/module-login-as-customer-assistance-enforce) [![License](http://poser.pugx.org/aimanecouissi/module-login-as-customer-assistance-enforce/license)](https://packagist.org/packages/aimanecouissi/module-login-as-customer-assistance-enforce) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-login-as-customer-assistance-enforce/require/php)](https://packagist.org/packages/aimanecouissi/module-login-as-customer-assistance-enforce)
+
 Enforces **Login as Customer – Shopping Assistance** and removes the storefront opt-out checkbox.
 
 ## Installation
