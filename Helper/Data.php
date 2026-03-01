@@ -16,11 +16,11 @@ class Data extends AbstractHelper
     private const string XML_PATH_LOGIN_AS_CUSTOMER_GENERAL_ENFORCE_SHOPPING_ASSISTANCE = 'login_as_customer/general/enforce_shopping_assistance';
 
     /**
-     * Determines whether the shopping assistance should be enforced.
+     * Checks whether remote shopping assistance enforcement is enabled.
      *
      * @return bool
      */
-    public function shouldEnforceShoppingAssistance(): bool
+    public function isShoppingAssistanceEnforced(): bool
     {
         return $this->scopeConfig->isSetFlag(self::XML_PATH_LOGIN_AS_CUSTOMER_GENERAL_ENFORCE_SHOPPING_ASSISTANCE);
     }

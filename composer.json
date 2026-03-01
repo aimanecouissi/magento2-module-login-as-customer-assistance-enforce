@@ -1,7 +1,7 @@
 {
     "name": "aimanecouissi/module-login-as-customer-assistance-enforce",
     "version": "1.0.0",
-    "description": "Enforce remote shopping assistance on the storefront",
+    "description": "Enforce remote shopping assistance and remove the storefront opt-in checkbox",
     "type": "magento2-module",
     "require": {
         "php": "~8.3.0||~8.4.0",

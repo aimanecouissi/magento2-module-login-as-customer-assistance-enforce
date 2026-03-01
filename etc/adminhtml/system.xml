@@ -13,9 +13,9 @@
             <group id="general">
                 <field id="enforce_shopping_assistance" translate="label comment" type="select" sortOrder="70"
                        showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
-                    <label>Enforce Shopping Assistance</label>
+                    <label>Enforce Remote Shopping Assistance</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment>If set to "Yes", shopping assistance is enforced during account creation without customer choice.</comment>
+                    <comment>When enabled, remote shopping assistance is enforced and customers cannot opt in or out during account creation.</comment>
                 </field>
             </group>
         </section>

@@ -29,16 +29,16 @@ class CustomerRepositoryInterfacePlugin
     }
 
     /**
-     * Force assistance_allowed extension attribute when enforcement is enabled.
+     * Forces the assistance_allowed extension attribute when enforcement is enabled.
      *
      * @param CustomerRepositoryInterface $subject
      * @param CustomerInterface $customer
-     * @param $passwordHash
+     * @param string|null $passwordHash
      * @return array
      */
-    public function beforeSave(CustomerRepositoryInterface $subject, CustomerInterface $customer, $passwordHash = null): array
+    public function beforeSave(CustomerRepositoryInterface $subject, CustomerInterface $customer, ?string $passwordHash = null): array
     {
-        if ($this->loginAsCustomerConfig->isEnabled() && $this->moduleDataHelper->shouldEnforceShoppingAssistance()) {
+        if ($this->loginAsCustomerConfig->isEnabled() && $this->moduleDataHelper->isShoppingAssistanceEnforced()) {
             $extensionAttributes = $customer->getExtensionAttributes();
             $extensionAttributes->setAssistanceAllowed(IsAssistanceEnabledInterface::ALLOWED);
             $customer->setExtensionAttributes($extensionAttributes);

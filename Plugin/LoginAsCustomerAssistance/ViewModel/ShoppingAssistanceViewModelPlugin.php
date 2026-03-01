@@ -21,8 +21,15 @@ class ShoppingAssistanceViewModelPlugin
     {
     }
 
+    /**
+     * Returns false when enforcement is enabled to suppress the opt-in checkbox.
+     *
+     * @param ShoppingAssistanceViewModel $subject
+     * @param bool $result
+     * @return bool
+     */
     public function afterIsLoginAsCustomerEnabled(ShoppingAssistanceViewModel $subject, bool $result): bool
     {
-        return $result && !$this->moduleDataHelper->shouldEnforceShoppingAssistance();
+        return $result && !$this->moduleDataHelper->isShoppingAssistanceEnforced();
     }
 }
