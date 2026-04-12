@@ -1,0 +1,41 @@
+{
+    "name": "aimanecouissi/module-login-as-customer-assistance-enforce",
+    "version": "1.0.0",
+    "description": "Enforce remote shopping assistance for all customers",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "admin",
+        "login-as-customer",
+        "remote-shopping-assistance",
+        "enforce"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-login-as-customer-assistance-enforce",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "magento/framework": "103.0.*"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-login-as-customer-assistance-enforce/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-login-as-customer-assistance-enforce"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\LoginAsCustomerAssistanceEnforce\\": ""
+        }
+    }
+}
